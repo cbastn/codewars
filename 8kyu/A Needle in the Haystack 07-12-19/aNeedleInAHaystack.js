@@ -26,6 +26,7 @@ function findNeedle(haystack) {
           //return the position if found 
       }
   }
+  //Note this can also be done with indexOf() array function 
 }
 
 //Test 
