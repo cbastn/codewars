@@ -8,17 +8,17 @@ function getSum( a,b )
    //Good luck!
    let lower;
    let higher;
-   let result = lower;
    if(a === b){
        return a 
    }else{
     a < b ? (lower = a, higher = b) : (lower = b, higher = a)
+    let result = lower;
     for(lower; lower < higher; lower++){
-        result = lower + (lower + 1);
+        result = result + (lower + 1);
     }
     return(result)
   }
 }
 
-  console.log(getSum(0,-1),-1);
-  console.log(getSum(0,1),1);
+  //console.log(getSum(0,-1),-1);
+  console.log(getSum(-58,1),1);
